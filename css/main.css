@@ -2,6 +2,22 @@ html {
   font-family: "Unica One", sans-serif;
 }
 
+#narwhal-eye {
+  animation: appear 2s linear forwards;
+  opacity: 100%;
+}
+
+@keyframes appear {
+
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
+
 #narwhal-body {
   animation: line-drawing 2s linear forwards;
   stroke-dasharray: 1981px;
@@ -12,6 +28,125 @@ html {
 
   0% {
     stroke-dashoffset: 1981px;
+  }
+
+  100% {
+    stroke-dashoffset: 0px;
+  }
+}
+
+#rainbow-violet {
+  animation: line-drawing-r1 2s linear forwards;
+  stroke-dasharray: 1917px;
+  stroke-dashoffset: 1917px;
+}
+
+@keyframes line-drawing-r1 {
+
+  0% {
+    stroke-dashoffset: 1917px;
+  }
+
+  100% {
+    stroke-dashoffset: 0px;
+  }
+}
+
+#rainbow-indigo {
+  animation: line-drawing-r2 2s linear forwards;
+  stroke-dasharray: 1812px;
+  stroke-dashoffset: 1812px;
+}
+
+@keyframes line-drawing-r2 {
+
+  0% {
+    stroke-dashoffset: 1812px;
+  }
+
+  100% {
+    stroke-dashoffset: 0px;
+  }
+}
+
+#rainbow-blue {
+  animation: line-drawing-r3 2s linear forwards;
+  stroke-dasharray: 1705px;
+  stroke-dashoffset: 1705px;
+}
+
+@keyframes line-drawing-r3 {
+
+  0% {
+    stroke-dashoffset: 1705px;
+  }
+
+  100% {
+    stroke-dashoffset: 0px;
+  }
+}
+
+#rainbow-green {
+  animation: line-drawing-r4 2s linear forwards;
+  stroke-dasharray: 1596px;
+  stroke-dashoffset: 1596px;
+}
+
+@keyframes line-drawing-r4 {
+
+  0% {
+    stroke-dashoffset: 1596px;
+  }
+
+  100% {
+    stroke-dashoffset: 0px;
+  }
+}
+
+#rainbow-yellow {
+  animation: line-drawing-r5 2s linear forwards;
+  stroke-dasharray: 1483px;
+  stroke-dashoffset: 1483px;
+}
+
+@keyframes line-drawing-r5 {
+
+  0% {
+    stroke-dashoffset: 1483px;
+  }
+
+  100% {
+    stroke-dashoffset: 0px;
+  }
+}
+
+#rainbow-orange {
+  animation: line-drawing-r6 2s linear forwards;
+  stroke-dasharray: 1366px;
+  stroke-dashoffset: 1366px;
+}
+
+@keyframes line-drawing-r6 {
+
+  0% {
+    stroke-dashoffset: 1366px;
+  }
+
+  100% {
+    stroke-dashoffset: 0px;
+  }
+}
+
+#rainbow-red {
+  animation: line-drawing-r7 2s linear forwards;
+  stroke-dasharray: 1243px;
+  stroke-dashoffset: 1243px;
+}
+
+@keyframes line-drawing-r7 {
+
+  0% {
+    stroke-dashoffset: 1243px;
   }
 
   100% {
