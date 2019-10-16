@@ -1,0 +1,20 @@
+html {
+  font-family: "Unica One", sans-serif;
+}
+
+#narwhal-body {
+  animation: line-drawing 2s linear forwards;
+  stroke-dasharray: 1981px;
+  stroke-dashoffset: 1981px;
+}
+
+@keyframes line-drawing {
+
+  0% {
+    stroke-dashoffset: 1981px;
+  }
+
+  100% {
+    stroke-dashoffset: 0px;
+  }
+}
