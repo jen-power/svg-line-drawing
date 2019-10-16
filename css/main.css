@@ -3,8 +3,8 @@ html {
 }
 
 #narwhal-eye {
-  animation: appear 2s linear forwards;
-  opacity: 100%;
+  animation: appear .2s .9s linear forwards;
+  opacity: 100;
 }
 
 @keyframes appear {
@@ -14,12 +14,13 @@ html {
   }
 
   100% {
-    opacity: 100%;
+    opacity: 100;
   }
+
 }
 
 #narwhal-body {
-  animation: line-drawing 2s linear forwards;
+  animation: line-drawing 1s linear forwards;
   stroke-dasharray: 1981px;
   stroke-dashoffset: 1981px;
 }
@@ -31,12 +32,13 @@ html {
   }
 
   100% {
-    stroke-dashoffset: 0px;
+    stroke-dashoffset: 0;
   }
+
 }
 
 #rainbow-violet {
-  animation: line-drawing-r1 2s linear forwards;
+  animation: line-drawing-r1 1s .5s linear forwards;
   stroke-dasharray: 1917px;
   stroke-dashoffset: 1917px;
 }
@@ -48,12 +50,13 @@ html {
   }
 
   100% {
-    stroke-dashoffset: 0px;
+    stroke-dashoffset: 0;
   }
+
 }
 
 #rainbow-indigo {
-  animation: line-drawing-r2 2s linear forwards;
+  animation: line-drawing-r2 1s .5s linear forwards;
   stroke-dasharray: 1812px;
   stroke-dashoffset: 1812px;
 }
@@ -65,12 +68,13 @@ html {
   }
 
   100% {
-    stroke-dashoffset: 0px;
+    stroke-dashoffset: 0;
   }
+
 }
 
 #rainbow-blue {
-  animation: line-drawing-r3 2s linear forwards;
+  animation: line-drawing-r3 1s .5s linear forwards;
   stroke-dasharray: 1705px;
   stroke-dashoffset: 1705px;
 }
@@ -82,12 +86,13 @@ html {
   }
 
   100% {
-    stroke-dashoffset: 0px;
+    stroke-dashoffset: 0;
   }
+
 }
 
 #rainbow-green {
-  animation: line-drawing-r4 2s linear forwards;
+  animation: line-drawing-r4 1s .5s linear forwards;
   stroke-dasharray: 1596px;
   stroke-dashoffset: 1596px;
 }
@@ -99,12 +104,13 @@ html {
   }
 
   100% {
-    stroke-dashoffset: 0px;
+    stroke-dashoffset: 0;
   }
+
 }
 
 #rainbow-yellow {
-  animation: line-drawing-r5 2s linear forwards;
+  animation: line-drawing-r5 1s .5s linear forwards;
   stroke-dasharray: 1483px;
   stroke-dashoffset: 1483px;
 }
@@ -116,12 +122,13 @@ html {
   }
 
   100% {
-    stroke-dashoffset: 0px;
+    stroke-dashoffset: 0;
   }
+
 }
 
 #rainbow-orange {
-  animation: line-drawing-r6 2s linear forwards;
+  animation: line-drawing-r6 1s .5s linear forwards;
   stroke-dasharray: 1366px;
   stroke-dashoffset: 1366px;
 }
@@ -133,12 +140,13 @@ html {
   }
 
   100% {
-    stroke-dashoffset: 0px;
+    stroke-dashoffset: 0;
   }
+
 }
 
 #rainbow-red {
-  animation: line-drawing-r7 2s linear forwards;
+  animation: line-drawing-r7 1s .5s linear forwards;
   stroke-dasharray: 1243px;
   stroke-dashoffset: 1243px;
 }
@@ -150,6 +158,7 @@ html {
   }
 
   100% {
-    stroke-dashoffset: 0px;
+    stroke-dashoffset: 0;
   }
+
 }
